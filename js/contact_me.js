@@ -20,7 +20,7 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "naeharena.de/filamentfabrik/kontakt.php",
+        url: "https://naeharena.de/filamentfabrik/kontakt.php",
         type: "POST",
         data: {
           name: name,
